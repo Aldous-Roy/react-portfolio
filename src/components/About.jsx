@@ -20,7 +20,7 @@ const About = () => {
 
         {/* Text Section */}
         <div className="w-full lg:w-1/2 lg:pl-8">
-          <p className="my-2 max-w-xl py-6 text-lg leading-relaxed text-justify text-neutral-700">
+          <p className="my-2 max-w-xl py-6 text-lg leading-relaxed text-justify text-neutral-400">
             {ABOUT_TEXT}
           </p>
         </div>
