@@ -42,7 +42,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Gaming Platform",
-    image: project2,
+    image: project1,
     description:
       "A Front-end degin platform for gaming enthusiasts to find new games, discuss gaming news, and connect with other players.",
     technologies: ["HTML", "CSS", "React", "GSAP"],
