@@ -8,7 +8,7 @@ const Project = () => {
       <div>
         {PROJECTS.map((project, id) => (
           <div key={id} className="mb-8 flex flex-wrap lg:justify-center">
-            <div className="w-full lg:w-1/4">
+            <div className="w-full flex justify-center items-center lg:w-1/4">
               <img
                 src={project.image}
                 width={150}
@@ -24,7 +24,7 @@ const Project = () => {
                 {project.technologies.map((tech, id) => (
                   <span
                     key={id}
-                    className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium"
+                    className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800"
                   >
                     {tech}
                   </span>
