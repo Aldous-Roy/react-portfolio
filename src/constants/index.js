@@ -1,7 +1,8 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import Redefine from "../assets/projects/Redefine.png";
+import project4 from "../assets/projects/project-4.jpg";
+import Redefine from "../assets/projects/redefine.png";
 import Portfolio from "../assets/projects/portfolio.png";
 import hack from "../assets/projects/hack.png";
 
@@ -43,7 +44,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Gaming Platform",
-    image: Redefine,
+    image: project1,
     description:
       "A Front-end degin platform for gaming enthusiasts to find new games, discuss gaming news, and connect with other players.",
     technologies: ["HTML", "CSS", "React", "GSAP"],
@@ -57,14 +58,14 @@ export const PROJECTS = [
   },
   {
     title: "Portfolio Website",
-    image: Portfolio,
+    image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "tailwindcss","Framer-Motion"],
   },
   {
     title: "Hackathon Website",
-    image: hack,
+    image: project4,
     description:
       "A website for hosting hackathons, with features such as registeration and event management. It is made for my department M.Tech CSE for the hackathon CODECRAFT 24  with my team mates ",
     technologies: ["HTML", "CSS", "React", "Framer-Motion"],
