@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import Redefine from "../assets/projects/redefine.png";
+import Redefine from "../assets/projects/Redefine.png";
 import Portfolio from "../assets/projects/portfolio.png";
 import hack from "../assets/projects/hack.png";
 
