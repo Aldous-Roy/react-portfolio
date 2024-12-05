@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import hack from "../assets/projects/hack.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React and Three.js, as well as back-end technologies like Node.js, PostgreSQL and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -62,7 +63,7 @@ export const PROJECTS = [
   },
   {
     title: "Hackathon Website",
-    image: project4,
+    image: hack,
     description:
       "A website for hosting hackathons, with features such as registeration and event management. It is made for my department M.Tech CSE for the hackathon CODECRAFT 24  with my team mates ",
     technologies: ["HTML", "CSS", "React", "Framer-Motion"],
