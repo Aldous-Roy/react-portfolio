@@ -23,6 +23,7 @@ const Navbar = () => {
 
       {/* Social Media Icons */}
       <div className="m-8 flex items-center justify-center gap-6 text-2xl">
+        {/* Apply the same color and hover effect to all icons */}
         <motion.a
           href="https://www.linkedin.com/in/aldousroy2004"
           target="_blank"
@@ -40,7 +41,7 @@ const Navbar = () => {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub"
-          className="text-black hover:text-gray-800 transition-colors duration-300"
+          className="text-blue-600 hover:text-blue-800 transition-colors duration-300"
           whileHover={{ scale: 1.2 }} // Scale up on hover
           whileTap={{ scale: 0.9 }}  // Slightly scale down on tap
         >
@@ -52,7 +53,7 @@ const Navbar = () => {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Instagram"
-          className="text-pink-500 hover:text-pink-700 transition-colors duration-300"
+          className="text-blue-600 hover:text-blue-800 transition-colors duration-300"
           whileHover={{ scale: 1.2 }} // Scale up on hover
           whileTap={{ scale: 0.9 }}  // Slightly scale down on tap
         >
